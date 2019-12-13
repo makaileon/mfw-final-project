@@ -1,11 +1,57 @@
 
-  #stage {
+@import url('https://fonts.googleapis.com/css?family=Abel|Girassol&display=swap');
+
+ 
+ #stage {
     background-image: url("../img/background.png");
     background-size: cover;
     background-attachment: fixed;
   }
 
+  #stage .row {
+    margin-top: 40px;
+  }
+
+  #stage li, main p, main button {
+    font-family: 'Abel';
+    font-size: 2rem;
+  }
+
   li a {
+    color: black;
     background-color: transparent;
   }
 
+  h2 {
+    display: inline;
+    font-family: 'Girassol';
+    font-weight: bold;
+  }
+
+  .logo {
+    margin-top: -6px;
+  }
+/*            NAV                    */
+  .main_text {
+    margin-top: 140px;
+  }
+
+  h1 {
+    font-size: 42px;
+    font-family: 'Girassol';
+    font-weight: bold;
+  }
+
+  button {
+    width: 120px;
+    height: 40px;
+  }
+
+  Main .row {
+    height: 700px;
+  }
+  /*          CAROUSEL             */
+
+  .carousel {
+    margin-top: 150px;
+  }
