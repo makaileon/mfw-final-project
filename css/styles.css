@@ -1,0 +1,11 @@
+
+  #stage {
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  li a {
+    background-color: transparent;
+  }
+
