@@ -12,7 +12,9 @@
     margin-top: 40px;
   }
 
-  #stage li, main p, main button {
+  #stage li, main p, 
+  main button,
+  content p {
     font-family: 'Abel';
     font-size: 2rem;
   }
@@ -36,7 +38,7 @@
     margin-top: 140px;
   }
 
-  h1 {
+  h1, h3 {
     font-size: 42px;
     font-family: 'Girassol';
     font-weight: bold;
@@ -47,11 +49,19 @@
     height: 40px;
   }
 
-  Main .row {
-    height: 700px;
+  Main .row, content .row  {
+    height: 550px;
   }
   /*          CAROUSEL             */
 
   .carousel {
     margin-top: 150px;
   }
+
+  @media(max-width: 768px)  {
+    .carousel {
+      display: unset;
+    }
+  }
+/*                END OF MAIN          */
+
