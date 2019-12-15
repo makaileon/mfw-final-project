@@ -64,6 +64,11 @@
     font-family: 'Abel';
   }
 
+  .btn {
+    background-color: #00cc88;
+    border: transparent;
+  }
+
   Main .row, content .row  {
     height: 550px;
   }
@@ -81,4 +86,8 @@
   }
 /*                END OF MAIN          */
 
-
+.tab-content {
+  background-color: white;
+  height: 300px;
+  padding-top: 40px;
+}
