@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Final Project</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/all.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
@@ -13,13 +13,14 @@
 <div class="container-fluid" id="stage">
     <!-------------------NAVIGATION------------------------------->
     <div class="row">
+      <nav>
         <div class="col-sm-2 col-sm-offset-1 logo">
-            <i class="fab fa-angellist fa-3x"></i>
+            <i class="fab fa-angellist fa-3x rotate"></i>
             <h2>Portfolio</h2>
         </div>
         <ul class="nav nav-pills col-sm-4">
-            <li role="presentation"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#stage">Home</a></li>
+            <li role="presentation"><a href="#content">About Me</a></li>
             <li role="presentation"><a href="#">Messages</a></li>
         </ul>
         <ul class="nav nav-pills col-sm-4 col-sm-offset-1">
@@ -27,6 +28,8 @@
             <li role="presentation"><a href="https://twitter.com/MakaiLeon"><i class="fab fa-twitter-square"></i>Twitter</a></li>
             <li role="presentation"><a href="https://www.instagram.com/dumpstaboi/?hl=en"><i class="fab fa-instagram"></i>Instagram</a></li>
         </ul>
+      </nav>
+    </div>
 <!--                       END OF NAVIGATION                    -->
 <!--                        MAIN LEFT SIDE                       -->
 <main>
@@ -35,7 +38,9 @@
                 <div class="col-sm-3 col-sm-offset-1 main_text">
                 <h1>Take a look at my Github</h1>
                 <p>A collection of various works that I've put together with great teachers here at Geekwise Academy. To the right are a few of the projects we worked on. </p>
-                <button class="btn-primary"><a href="https://github.com/makaileon"></a>Check it out</button>
+                <a href="https://github.com/makaileon" class="btn btn-primary" role="button">
+                  <p>Check it out</p>
+                </a>
                 </div>
 <!--                    MAIN RIGHT SIDE CAROUSEL                    -->
 <div id="carousel-example-generic" class="carousel slide col-sm-6 col-xs-offset-1" data-ride="carousel">
@@ -62,14 +67,15 @@
 </div>
 </main>
 <!--                        END OF MAIN                            -->
-<content>
+<content id="content">
   <div class="container">
     <div class="row">
       <div class="col-sm-3">
-        <h3 class="text-center">Who is he?</h3>
-        <img src="" alt="" class="img-responsive">
+        <h3 class="text-center">About Me</h3>
+        <img src="img/me.jpeg" alt="a picture of me" class="img-responsive">
         <p>My name's Makai and I am an aspiring software engineer. I have set my goals high and I'm glad I've had the opportunity to start my journey at Bitwise.</p>
       </div>
+
 
 
 

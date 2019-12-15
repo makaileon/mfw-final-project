@@ -13,7 +13,6 @@
   }
 
   #stage li, main p, 
-  main button,
   content p {
     font-family: 'Abel';
     font-size: 2rem;
@@ -33,7 +32,22 @@
   .logo {
     margin-top: -6px;
   }
-/*            NAV                    */
+
+  .rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+/*           END OF NAV                    */
+/*            MAIN                       */
   .main_text {
     margin-top: 140px;
   }
@@ -44,14 +58,16 @@
     font-weight: bold;
   }
 
-  button {
+  main a {
     width: 120px;
-    height: 40px;
+    height: 42px;
+    font-family: 'Abel';
   }
 
   Main .row, content .row  {
     height: 550px;
   }
+
   /*          CAROUSEL             */
 
   .carousel {
@@ -64,4 +80,5 @@
     }
   }
 /*                END OF MAIN          */
+
 
