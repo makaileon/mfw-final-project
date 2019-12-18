@@ -13,9 +13,13 @@
   }
 
   #stage li, main p, 
-  content p {
+  content p, #school p {
     font-family: 'Abel';
     font-size: 2rem;
+  }
+
+  .header {
+    border-bottom: 2px solid black;
   }
 
   li a {
@@ -69,7 +73,7 @@
     border: transparent;
   }
 
-  Main .row, content .row  {
+  Main .row, content .row, #school {
     height: 550px;
   }
 
@@ -84,10 +88,42 @@
       display: unset;
     }
   }
+
 /*                END OF MAIN          */
+/*                BEGINNING OF CONTENT */
+
+content .navbar {
+  margin-top: 100px;
+  border: 1px solid lightgray;
+}
 
 .tab-content {
-  background-color: white;
-  height: 300px;
-  padding-top: 40px;
+  background-color: transparent;
+  margin-top: 10px;
+}
+
+.pictures {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+@media(max-width: 768px)  {
+  content .navbar {
+    display: unset;
+  }
+}
+
+.portrait {
+  border-radius: 2%;
+}
+
+/*            END OF CONTENT         */
+/*            SCHOOL CONTENT         */
+
+.school {
+  border-radius: 2%;
+}
+
+.school_text {
+  margin-top: 5%;
 }
