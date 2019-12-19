@@ -12,14 +12,17 @@
     margin-top: 40px;
   }
 
-  #stage li, main p, 
-  content p, #school p {
+  #stage li, 
+  main p, 
+  content p, 
+  #school p,
+  #threes p {
     font-family: 'Abel';
     font-size: 2rem;
   }
 
   .header {
-    border-bottom: 2px solid black;
+    border-bottom: 2px dotted black;
   }
 
   li a {
@@ -94,7 +97,11 @@
 
 content .navbar {
   margin-top: 100px;
-  border: 1px solid lightgray;
+  border: 1px solid black;
+}
+
+#content li {
+  border-color: black;
 }
 
 .tab-content {
@@ -120,10 +127,47 @@ content .navbar {
 /*            END OF CONTENT         */
 /*            SCHOOL CONTENT         */
 
-.school {
+#school {
+  background-image: url(../img/fresnostate.jpg);
+  background-size: cover;
+  background-position: center;
   border-radius: 2%;
+  margin-top: 50px;
 }
 
 .school_text {
-  margin-top: 5%;
+  background-color: #fff;
+  border-radius: 2%;
+}
+
+/*              END OF SCHOOL                */
+/*              FOOTER                       */
+
+footer {
+  margin-top:15px;
+  height: 80px;
+  border-top: 2px dotted black;
+}
+
+footer h4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  font-family: 'Abel';
+}
+
+/*                TOP THREES PAGE        */
+/*                TOP THREES PAGE        */
+/*                TOP THREES PAGE        */
+
+.borders {
+  border: solid 1px black;
+  border-radius: 25px;
+}
+
+.top_pictures {
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  margin-bottom: 10px;
 }
