@@ -97,7 +97,8 @@
 
 content .navbar {
   margin-top: 100px;
-  border: 1px solid black;
+  border: 5px solid black;
+  border-radius: 15px;
 }
 
 #content li {
@@ -121,7 +122,8 @@ content .navbar {
 }
 
 .portrait {
-  border-radius: 2%;
+  border-radius: 15px;
+  border: black solid 5px;
 }
 
 /*            END OF CONTENT         */
@@ -131,13 +133,14 @@ content .navbar {
   background-image: url(../img/fresnostate.jpg);
   background-size: cover;
   background-position: center;
-  border-radius: 2%;
+  border-radius: 15px;
   margin-top: 50px;
+  border: black solid 5px;
 }
 
 .school_text {
   background-color: #fff;
-  border-radius: 2%;
+  border-radius: 15px;
 }
 
 /*              END OF SCHOOL                */
